@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+div {
+    display: block;
+}
+
+body,
+h1,
+h2 {
+    font-family: "Raleway", sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+p {
+    line-height: 2;
+}
+
+body {
+    text-wrap: wrap;
+    background-color: #FFDDDD;
+}
+
+.married {
+    background-image: url("https://www.w3schools.com/w3images/wedding_couple.jpg");
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    opacity: 0.8;
+}
+
+.married .content {
+    width: 400.5px;
+    height: 226px;
+    color: #fff;
+    font: 15px "Raleway", sans-serif;
+}
+
+.married .content h1 {
+    width: 400.5px;
+    height: 96px;
+    color: #fff;
+    font: 64px "Raleway", sans-serif;
+    margin: 10px 0;
+}
+
+.married .content h2 {
+    width: 400.5px;
+    height: 45px;
+    color: #fff;
+    margin: 10px 0;
+    font: 30px "Raleway", sans-serif;
+}
+
+.married .content b {
+    width: 173.12px;
+    height: 35.33px;
+    color: #fff;
+    font: 30px "Raleway", sans-serif;
+}
+
+.navdiv {
+    opacity: 0.7;
+    display: flex;
+    margin-top: 126px;
+    position: fixed;
+    bottom: 0;
+    color: #000;
+    background-color: #ccc;
+    width: 100vw;
+    height: 40px;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    font: 15px "Raleway", sans-serif;
+    text-align: center;
+}
+
+.navdiv .nav a {
+    margin: 20px;
+    text-decoration: none;
+    color: #000;
+    background-color: #ccc;
+    padding: 8px 16px;
+}
+
+.navdiv .nav a:hover {
+    background-color: #000 !important;
+    color: white;
+}
+
+.pink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100vw;
+    height: fit-content;
+    flex-wrap: wrap;
+    background-color: #FFDDDD;
+    opacity: 0.8;
+}
+
+.pink .pinkc {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 816px;
+    height: 894.27px;
+    flex-wrap: wrap;
+}
+
+.pink .pinkc p {
+    width: 50%;
+}
+
+.pink .pinkc img {
+    width: 816px;
+    height: 458.77px;
+    margin: 32px 0;
+    opacity: 0.7;
+}
+
+.pink .pinkc h1 {
+    margin: 10px 0;
+    width: 816px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+}
+
+.pink .pinkc h1 b {
+    width: 200.56px;
+    height: 42.67px;
+    color: #757575;
+    font: 36px "Raleway", sans-serif;
+}
+
+.pink .pinkc a {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 185.42px;
+    height: 60px;
+    background-color: #000;
+    padding: 12px 24px;
+    color: #fff;
+    font: 18px "Raleway", sans-serif;
+    text-decoration: none;
+    margin-left: 59px;
+    margin-top: 10px;
+}
+
+.pink .flowers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 848px;
+    height: 606px;
+    background-image: url("https://www.w3schools.com/w3images/flowers.jpg");
+    flex-wrap: wrap;
+}
+
+.pink .flowers .intive {
+    width: 424px;
+    height: 192px;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 64px !important;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.pink .flowers .of {
+    font-weight: lighter;
+    width: 424px;
+    height: 45px;
+    color: #fff;
+    font-size: 30px;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 1197px;
+    margin-left: 190px;
+}
+
+.the {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.the h1 {
+    width: 816px;
+    height: 54px;
+    margin: 10px 0;
+}
+
+.the h1 b {
+    margin-left: 35%;
+    width: 251.94px;
+    height: 42.67px;
+    color: #757575;
+    font-size: 36px;
+    font-family: "Raleway", sans-serif;
+}
+
+.img img {
+    width: 816px;
+    height: 544px;
+    opacity: 0.7;
+    margin: 64px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.where {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 0px;
+}
+
+.hope {
+    display: flex;
+    width: 100vw;
+    height: 358px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: pink;
+}
+
+.hope .you button{
+    margin-top: 2px;
+    margin-left: 99px;
+    padding: 8px 60px;
+    border-radius: 4px;
+    opacity: 0.60;
+    color: #fff !important;
+    background-color: #f44336 !important;
+    border: 0;
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    font-weight: lighter;
+    border: none;
+    display: inline-block;
+    padding: 16px 8px;
+}
+
+.hope .you button:hover {
+    color: #000 !important;
+    background-color: #ffdddd !important;
+}
+
+.hope .you .kind {
+    margin-top: 2px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+    color: #000;
+    margin: 18px 0px;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+}
+
+.hope .you h1 {
+    font-weight: lighter;
+    color: #000;
+    font-size: 36px;
+    font-family: "Raleway", sans-serif;
+}
+
+.power {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100vw;
+    height: 92px;
+    background-color: #000;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    padding: 16px 0px;
+}
+
+ .power .paragraph {
+    color: #fff;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+}
+
+.power .paragraph .hio {
+    color: #fff;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    text-decoration-color: #fff;
+} 
